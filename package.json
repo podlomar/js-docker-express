@@ -1,0 +1,23 @@
+{
+  "name": "js-docker-express",
+  "version": "1.0.0",
+  "description": "Starter project for Express.js application using docker",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack -wd",
+    "build": "webpack -d",
+    "build:prod": "webpack -p"
+  },
+  "author": "Martin Podloucký",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
