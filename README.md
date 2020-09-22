@@ -1,4 +1,4 @@
-# Express.js starter project with D
+# Express.js starter project with Docker
 
 Starter project for Express.js running inside an Alpine based Docker container.
 
